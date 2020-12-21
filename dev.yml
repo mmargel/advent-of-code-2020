@@ -1,0 +1,16 @@
+name: mmargel-aoc-2020
+
+type: node
+
+up:
+  - node:
+      version: v10.11.0
+      yarn: true
+      packages:
+        - .
+        # - path/to/other/package
+
+commands:
+  test: yarn test
+  server: yarn dev
+  setup: yarn setup
