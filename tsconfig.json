@@ -14,7 +14,7 @@
     "moduleResolution": "Node",
     "allowJs": true,
     "strict": true,
-    "lib": ["dom", "es2019"]
+    "lib": ["dom", "es2019", "esnext"]
   },
   "include": ["src", "examples/passThrough.ts"],
   "exclude": ["node_modules", "src/**/*.test.ts", "src/**/*.temp.ts"]
