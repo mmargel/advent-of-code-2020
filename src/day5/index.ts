@@ -63,11 +63,11 @@ const getMissingSeatId = (codes: string[]) => {
   return getMissingValue(ids);
 };
 
-const goA = (input: any) => {
+const goA = (input: string[]) => {
   return getMaxId(input);
 };
 
-const goB = (input: any) => {
+const goB = (input: string[]) => {
   return getMissingSeatId(input);
 };
 

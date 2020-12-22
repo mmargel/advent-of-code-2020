@@ -133,11 +133,11 @@ const countValidPassports = (passports: Passport[]) => {
   return passports.filter(validatePassport).length;
 };
 
-const goA = (input: any) => {
+const goA = (input: Passport[]) => {
   return countPassportsWithRequiredFields(input);
 };
 
-const goB = (input: any) => {
+const goB = (input: Passport[]) => {
   return countValidPassports(input);
 };
 
